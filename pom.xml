@@ -11,7 +11,7 @@
 	<groupId>com.aweperi</groupId>
 	<artifactId>kotlinspringbootpractice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kotlinspringbootpractice</name>
+	<name>kotlinSpringbootPractice</name>
 	<description>Kotlin and Spring Boot practice</description>
 	<properties>
 		<java.version>17</java.version>
@@ -37,6 +37,7 @@
 		<dependency>
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
+			<version>1.6.0</version>
 		</dependency>
 
 		<dependency>
@@ -48,6 +49,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.mockk</groupId>
+			<artifactId>mockk</artifactId>
+			<version>1.12.2</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
