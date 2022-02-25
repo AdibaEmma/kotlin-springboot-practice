@@ -6,10 +6,6 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/v1")
-class Controller {
+class BankController {
 
-    @GetMapping("/")
-    fun greet() : String {
-        return "Hello World"
-    }
 }
